@@ -2,8 +2,8 @@
 
 ## Installation
 
-2. **Upload**: Upload the ZIP file through the WordPress admin interface or extract the plugin folder to the `/wp-content/plugins/` directory.
-3. **Activate**: Activate the plugin through the 'Plugins' menu in WordPress.
+1. **Upload**: Upload the ZIP file through the WordPress admin interface or extract the plugin folder to the `/wp-content/plugins/` directory.
+2. **Activate**: Activate the plugin through the 'Plugins' menu in WordPress.
 
 **Note:** This plugin requires Elementor to be installed and activated. Please make sure Elementor is installed and activated before using this plugin.
 
