@@ -1,0 +1,227 @@
+.quote-widget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    padding: 20px 50px;
+    overflow: hidden;
+    background: url(./img/quote-bg.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+}
+
+.quote-text {
+    word-wrap: break-word; 
+    margin-top: -35px;
+}
+
+.quote-logo img {
+    width: 200px;
+}
+
+.logo-label {
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .quote-container {
+        height: 260px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .quote-container {
+        height: 215px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .quote-container {
+        height: 155px;
+        padding: 15px 35px;
+    }
+
+    .quote-text {
+        margin-top: -18px;
+        font-size: 12px;
+    }
+
+    .quote-logo img {
+        width: 150px;
+    }
+
+    .logo-label {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .quote-container {
+        height: 235px;
+        margin-top: 30px;
+    }
+
+    .quote-text {
+        margin-top: -25px;
+        font-size: 17px;
+    }
+
+    .quote-logo img {
+        width: 180px;
+    }
+
+    .logo-label {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .quote-container {
+        width: auto;
+        height: 255px;
+    }
+
+    .quote-text {
+        margin-top: -30px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .quote-container {
+        height: 250px;
+    }
+
+}
+
+@media only screen and (max-width: 555px) {
+    .quote-container {
+        height: 245px;
+    }
+
+    .quote-text {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .quote-container {
+        height: 235px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .quote-container {
+        height: 225px;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .quote-container {
+        height: 215px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .quote-container {
+        height: 205px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .quote-container {
+        height: 195px;
+    }
+
+    .quote-text {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .quote-container {
+        height: 175px;
+    }
+
+    .quote-text {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .quote-container {
+        height: 165px;
+    }
+
+    .quote-text {
+        margin-top: -10px;
+        font-size: 12px;
+    }
+
+    .quote-logo img {
+        width: 160px;
+    }
+
+    .logo-label {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .quote-container {
+        height: 155px;
+    }
+
+    .quote-text {
+        margin-top: -10px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .quote-container {
+        height: 145px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .quote-container {
+        height: 135px;
+    }
+
+    .quote-logo img {
+        width: 140px;
+    }
+
+    .quote-text {
+        margin-top: -12px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .quote-container {
+        height: 125px;
+    }
+
+    .quote-logo img {
+        width: 120px;
+    }
+
+}
+
+@media only screen and (max-width: 300px) {
+    .quote-container {
+        height: 115px;
+    }
+    
+    .quote-logo img {
+        width: 120px;
+    }
+
+}
